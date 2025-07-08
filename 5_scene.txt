@@ -1,0 +1,106 @@
+resolutionMulti: 16
+maxDistance: 200
+maxMarches: 200
+maxReflections: 8
+epsilon: 0.01
+ambientLight: 25 25 25
+
+frameMin: 0
+frameMax: 0
+frameStep: 1
+
+fieldOfView: 0.2
+cameraPos: 0 15 0
+cameraRot: 0 0
+
+bodyCount: 18
+
+bodyType: 0
+bodyColor: 255 255 255
+bodyPos: -500 100 500
+bodySize: 1 0 0
+
+bodyType: 2
+bodyColor: 0 0 0
+bodyPos: 0 0 -5
+bodySize: 0 0 1
+
+bodyType: 1
+bodyColor: 255 255 255
+bodyPos: -17 0 2
+bodySize: 1 1 1
+
+bodyType: 1
+bodyColor: 255 255 255
+bodyPos: -17 0 -2
+bodySize: 1 1 1
+
+bodyType: 1
+bodyColor: 255 255 255
+bodyPos: -17 0 0
+bodySize: 1 1 1
+
+bodyType: 1
+bodyColor: 255 255 255
+bodyPos: -17 0 2
+bodySize: 1 1 1
+
+bodyType: 1
+bodyColor: 80 80 80
+bodyPos: -80 -90 45
+bodySize: 50 50 50
+
+bodyType: 1
+bodyColor: 255 255 255
+bodyPos: 8 5 -4
+bodySize: 1 1 1
+
+bodyType: 1
+bodyColor: 255 255 255
+bodyPos: 8 5 -2
+bodySize: 1 1 1
+
+bodyType: 1
+bodyColor: 255 255 255
+bodyPos: 8 5 0
+bodySize: 1 1 1
+
+bodyType: 1
+bodyColor: 255 255 255
+bodyPos: 8 5 2
+bodySize: 1 1 1
+
+bodyType: 1
+bodyColor: 80 80 80
+bodyPos: 80 -51 45
+bodySize: 50 50 50
+
+bodyType: 0
+bodyColor: 30 100 30
+bodyPos: 8 5 6
+bodySize: 4 0 0
+
+bodyType: 0
+bodyColor: 30 100 30
+bodyPos: -17 0 6
+bodySize: 4 0 0
+
+bodyType: 0
+bodyColor: 150 80 80
+bodyPos: 5 -7 -4
+bodySize: 2.5 0 0
+
+bodyType: 0
+bodyColor: 150 80 80
+bodyPos: -13 4 -4
+bodySize: 2.5 0 0
+
+bodyType: 0
+bodyColor: 150 80 80
+bodyPos: 18 -2 -4
+bodySize: 2.5 0 0
+
+bodyType: 0
+bodyColor: 150 80 80
+bodyPos: -13 -20 -4
+bodySize: 2.5 0 0

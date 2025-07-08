@@ -1,0 +1,47 @@
+resolutionMulti: 16
+maxDistance: 100
+maxMarches: 100
+maxReflections: 8
+epsilon: 0.01
+ambientLight: 25 25 50
+
+frameMin: 0
+frameMax: 0
+frameStep: 1
+
+fieldOfView: 0.05
+cameraPos: -5 15 7
+cameraRot: 17 20
+
+bodyCount: 6
+
+bodyType: 0
+bodyColor: 500 300 100
+bodyPos: 0 0 3
+bodySize: 0.3 0 0
+
+bodyType: 2
+bodyColor: 200 200 200
+bodyPos: 0 0 0
+bodySize: 0 0 1
+
+bodyType: 1
+bodyColor: 128 128 128
+bodyPos: 3 3 1
+bodySize: 1 1 1
+
+bodyType: 1
+bodyColor: 128 128 128
+bodyPos: -3 -3 1
+bodySize: 1 1 1
+
+bodyType: 1
+bodyColor: 128 128 128
+bodyPos: -3 3 1
+bodySize: 1 1 1
+
+bodyType: 1
+bodyColor: 0 0 0
+bodyPos: 3 -3 1
+bodySize: 1 1 1
+
