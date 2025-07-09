@@ -17,12 +17,12 @@ Software ray-marching renderer that is an improved version of [another one I mad
 
 # Renders
 
-![render_025](/showcase/render_025.bmp)
+![render_025](/showcase/render_025.png)
 
-![render_025](/showcase/render_023.bmp)
+![render_025](/showcase/render_023.png)
 
-![render_041](/showcase/render_041.bmp)
+![render_041](/showcase/render_041.png)
 
-![render_043](/showcase/render_043.bmp)
+![render_043](/showcase/render_043.png)
 
 ![ray_march_animation2_0001-0180.gif](/showcase/ray_march_animation2_0001-0180.gif)
