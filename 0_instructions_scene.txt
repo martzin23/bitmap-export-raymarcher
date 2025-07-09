@@ -1,0 +1,31 @@
+resolutionMulti: [multiplier for the base resolution (16x9)]
+maxDistance: [maximum distance a ray can travel]
+maxMarches: [maximum ammount of steps a ray can take]
+maxReflections: [maximum number of bounces for reflections]
+epsilon: [a number close to zero, used for thresholds]
+ambientLight: [RGB values for ambient lighting (0-255)]
+
+frameMin: [starting frame number]
+frameMax: [ending frame number]
+frameStep: [ammount to increment the frame counter after every render, more than 1 skips frames]
+
+fieldOfView: [self explanatory]
+cameraPos: [(x y z) camera position]
+cameraRot: [(yaw pitch) camera rotation, buggy]
+
+bodyCount: [number of bodies that are listed below, first body is the light source]
+
+bodyType: [0 - sphere, 1 - box, 2 - plane, 3 - ???]
+bodyColor: [(R G B) color, range 0-255]
+bodyPos: [(x y z) position]
+bodySize: [(x y z) box - dimensions of the box | sphere - first value is radius, the rest is ignored | plane - its normal vector]
+
+bodyType: [second body]
+bodyColor: 
+bodyPos: 
+bodySize: 
+
+bodyType: [third body]
+bodyColor: 
+bodyPos: 
+bodySize: 
