@@ -5,14 +5,15 @@ Software ray-marching renderer that is an improved version of [another one I mad
 # Usage
 
 1. Compile the code
-2. Run it with with a scene file as standard input:
-    - `$ bitmap_export_raymarcher.exe < 1_scene.txt`
+2. Run it with a scene file as standard input:
+    `$ bitmap_export_raymarcher.exe < 1_scene.txt`
 3. Open `render_000.bmp` to see the result
 
 - The format of `scene.txt` files is explained in `0_instructions_scene.txt`.
-- It can render animations as an image sequence if `frameMax` is higher than `frameMin` in the scene file 
-    - there are no animated elements by default so every frame would look the same
-    - you can use the `sceneSettings.frameCount` variable to get the frame number and use it in the code to add animated elements
+- It can render animations as an image sequence if `frameMax` is higher than `frameMin` in the scene file.
+    - There are no animated elements by default so every frame would look the same.
+    - You can use the `sceneSettings.frameCount` variable to get the frame number and use it in the code to add animated elements.
+    - You need to use other software to convert the rendered image sequence to a video file.
 
 # Renders
 
@@ -24,4 +25,4 @@ Software ray-marching renderer that is an improved version of [another one I mad
 
 ![render_043](/showcase/render_043.bmp)
 
-![ray_march_animation20001-0180.mp4](/showcase/ray_march_animation20001-0180.mp4)
+![ray_march_animation2_0001-0180.gif](/showcase/ray_march_animation2_0001-0180.gif)
