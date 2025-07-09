@@ -1,8 +1,10 @@
-# Description
+# Bitmap export raymarcher
+
+## Description
 
 Software ray-marching renderer that is an improved version of [another one I made](https://github.com/martzin23/simple-console-raymarcher). It takes text files that describe a scene and renders it to a bitmap image. Created in November 2023.
 
-# Usage
+## Usage
 
 1. Compile the code
 2. Run it with a scene file as standard input:
@@ -12,10 +14,10 @@ Software ray-marching renderer that is an improved version of [another one I mad
 - The format of `scene.txt` files is explained in `0_instructions_scene.txt`.
 - It can render animations as an image sequence if `frameMax` is higher than `frameMin` in the scene file.
     - There are no animated elements by default so every frame would look the same.
-    - You can use the `sceneSettings.frameCount` variable to get the frame number and use it in the code to add animated elements.
-    - You need to use other software to convert the rendered image sequence to a video file.
+    - `sceneSettings.frameCount` contains the frame number that can be used in the code to add animated elements.
+    - Other software is required in order to convert the rendered image sequence to a video file.
 
-# Renders
+## Renders
 
 ![render_025](/showcase/render_025.png)
 
